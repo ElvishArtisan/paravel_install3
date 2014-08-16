@@ -22,4 +22,11 @@
 	* Incremented the package version to 2.1.0.
 2014-08-16 Fred Gleason <fredg@paravelsystems.com>
 	* Added 'README'.
-
+2014-08-16 Fred Gleason <fredg@paravelsystems.com>
+	* Updated 'asound.conf' for RHEL 7.
+	* Renamed 'configure.in' to 'configure.ac'.
+	* Modified 'configure.ac' and 'Makefile.am' to use in-home
+	RPM build tree.
+	* Modified 'Paravel-Broadcast.repo' for RHEL 7.
+	* Added a '-display' argument to the x11vnc(1) invocation
+	in 'paravelvnc'.

@@ -1,6 +1,6 @@
 [Paravel-Broadcast]
 enabled = 1
 name = Broadcast Applications from Paravel Systems
-baseurl = http://download.paravelsystems.com/CentOS/6
+baseurl = http://download.paravelsystems.com/CentOS/7
 gpgcheck = 1
 gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-Paravel-Broadcast

@@ -34,4 +34,4 @@ fi
 HOSTNAME=$1
 
 X11VNC_REVERSE_CONNECTION_NO_AUTH=1
-x11vnc -nopw -connect $HOSTNAME
+x11vnc -nopw -display :0 -connect $HOSTNAME
