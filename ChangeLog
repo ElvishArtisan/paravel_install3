@@ -1,0 +1,22 @@
+2013-03-26 Fred Gleason <fredg@paravelsystems.com>
+	* Initial package creation.
+2013-03-26 Fred Gleason <fredg@paravelsystems.com>
+	* Updated 'Paravel-Broadcast.repo'.
+	* Set package version to 0.0.0.
+	* Added 'gpg_keys'.
+2013-03-27 Fred Gleason <fredg@paravelsystems.com>
+	* Added 'asound.conf'.
+	* Changed editor from 'kwrite' to 'gedit' in 'rivendell.sh'.
+	* Removed '-ssl' flag from 'paravelvnc'.
+	* Removed 'rdvnc_connect.sh'
+	* Removed 'vnc_passwd'
+	* Removed 'x11vnc.sh'.
+2013-03-27 Fred Gleason <fredg@paravelsystems.com>
+	* Updated 'Paravel-Broadcast.repo'.
+2013-03-27 Fred Gleason <fredg@paravelsystems.com>
+	* Incremented the package version 2.0.0.
+2013-11-19 Fred Gleason <fredg@paravelsystems.com>
+	* Added 'Reyware.repo'.
+	* Added 'RPM-GPG-KEY-Reyware'.
+2013-11-19 Fred Gleason <fredg@paravelsystems.com>
+	* Incremented the package version to 2.1.0.

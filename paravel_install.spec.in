@@ -1,0 +1,74 @@
+## paravel_install.spec
+##
+##    This program is free software; you can redistribute it and/or modify
+##    it under the terms of version 2 of the GNU General Public License as
+##    published by the Free Software Foundation;
+##
+##    This program is distributed in the hope that it will be useful,
+##    but WITHOUT ANY WARRANTY; without even the implied warranty of
+##    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+##    GNU General Public License for more details.
+##
+##    You should have received a copy of the GNU General Public License
+##    along with this program; if not, write to the Free Software
+##    Foundation, Inc., 59 Temple Place, Suite 330, 
+##    Boston, MA  02111-1307  USA
+##
+
+Summary: Integration files for Rivendell on RedHat/CentOS
+Name: paravel_install
+Version: @VERSION@
+Release: @RPM_RELEASE@
+License: GPL
+Packager: Fred Gleason <fredg@paravelsystems.com>
+Group: Productivity/Multimedia/Sound/Players
+Source: paravel_install-@VERSION@.tar.gz
+BuildRoot: /var/tmp/paravel_install-@VERSION@
+
+%description
+Paravel_install provides files used for integrating Rivendell on a
+RedHat/CentOS system.
+
+%prep
+%setup -q
+
+%build
+
+%install
+rm -rf $RPM_BUILD_ROOT
+mkdir -p $RPM_BUILD_ROOT/usr/share/paravel_install
+cp asound.conf $RPM_BUILD_ROOT/usr/share/paravel_install/
+cp gpg_keys $RPM_BUILD_ROOT/usr/share/paravel_install/
+cp smb.conf $RPM_BUILD_ROOT/usr/share/paravel_install/
+cp paravelvnc $RPM_BUILD_ROOT/usr/share/paravel_install/
+cp rivendell.sh $RPM_BUILD_ROOT/usr/share/paravel_install/
+cp Paravel-Broadcast.repo $RPM_BUILD_ROOT/usr/share/paravel_install/
+cp Reyware.repo $RPM_BUILD_ROOT/usr/share/paravel_install/
+cp RPM-GPG-KEY-Paravel-Broadcast $RPM_BUILD_ROOT/usr/share/paravel_install/
+cp RPM-GPG-KEY-Reyware $RPM_BUILD_ROOT/usr/share/paravel_install/
+
+
+%clean
+rm -rf $RPM_BUILD_ROOT
+
+
+%files
+%defattr(-,root,root)
+/usr/share/paravel_install/asound.conf
+/usr/share/paravel_install/gpg_keys
+/usr/share/paravel_install/smb.conf
+/usr/share/paravel_install/paravelvnc
+/usr/share/paravel_install/rivendell.sh
+/usr/share/paravel_install/Paravel-Broadcast.repo
+/usr/share/paravel_install/RPM-GPG-KEY-Paravel-Broadcast
+/usr/share/paravel_install/Reyware.repo
+/usr/share/paravel_install/RPM-GPG-KEY-Reyware
+
+
+%changelog
+* Tue Nov 19 2013 Fred Gleason <fredg@paravelsystems.com>
+-- Added the 'Reyware' repository.
+* Tue Mar 27 2013 Fred Gleason <fredg@paravelsystems.com>
+-- Added 'asound.conf'.
+* Tue Mar 26 2013 Fred Gleason <fredg@paravelsystems.com>
+-- Initial package creation.
