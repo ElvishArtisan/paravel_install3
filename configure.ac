@@ -1,12 +1,10 @@
-dnl configure.in
+dnl configure.ac
 dnl
 dnl Autoconf configuration for paravel_install
 dnl
 dnl Use autoconf to process this into a configure script
 dnl
-dnl   (C) Copyright 2013 Fred Gleason <fredg@paravelsystems.com>
-dnl
-dnl      $Id: configure.in,v 1.1.1.1 2013/03/26 15:31:14 cvs Exp $
+dnl   (C) Copyright 2013-2014 Fred Gleason <fredg@paravelsystems.com>
 dnl
 dnl   This program is free software; you can redistribute it and/or modify
 dnl   it under the terms of the GNU General Public License version 2 as
@@ -22,8 +20,8 @@ dnl   License along with this program; if not, write to the Free Software
 dnl   Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 dnl
 
-AC_INIT(paravel_install,`cat PACKAGE_VERSION`,Fred Gleason <fredg@paravelsystems.com>)
-AM_INIT_AUTOMAKE(paravel_install,`cat PACKAGE_VERSION`)
+AC_INIT(paravel_install3,m4_esyscmd(cat PACKAGE_VERSION))
+AM_INIT_AUTOMAKE
 AC_SUBST(RPM_RELEASE,1)
 
 #
@@ -45,15 +43,10 @@ if test -z $RPMBUILD_FOUND ; then
 else
   AC_SUBST(RPMBUILD,rpmbuild)
 fi
-if test -d /usr/src/redhat ; then
-  AC_SUBST(RPM_ROOT,/usr/src/redhat)
-  AC_SUBST(VENDOR,redhat)
-else
-  AC_SUBST(RPM_ROOT,/usr/src/packages)
-  AC_SUBST(VENDOR,suse)
-fi 
+AC_SUBST(VENDOR,redhat)
+AC_SUBST(RPM_DATESTAMP,`date +%a\ %b\ %d\ %Y`)
 
-AC_CONFIG_FILES([paravel_install.spec \
+AC_CONFIG_FILES([paravel_install3.spec \
     Makefile ])
 AC_OUTPUT()
 

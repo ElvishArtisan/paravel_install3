@@ -4,9 +4,7 @@
 #
 # Profile script for Rivendell.
 #
-# Copyright (C) 2010 Fred Gleason <fredg@paravelsystems.com>
-#
-#      $Id: rivendell.sh,v 1.2 2013/03/27 18:36:17 cvs Exp $
+# Copyright (C) 2010-2014 Fred Gleason <fredg@paravelsystems.com>
 #
 #   This program is free software; you can redistribute it and/or modify
 #   it under the terms of the GNU General Public License version 2 as
