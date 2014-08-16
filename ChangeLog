@@ -20,3 +20,6 @@
 	* Added 'RPM-GPG-KEY-Reyware'.
 2013-11-19 Fred Gleason <fredg@paravelsystems.com>
 	* Incremented the package version to 2.1.0.
+2014-08-16 Fred Gleason <fredg@paravelsystems.com>
+	* Added 'README'.
+
