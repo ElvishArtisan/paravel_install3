@@ -13,8 +13,8 @@ ACLOCAL_AMFLAGS = -I m4
 rpm:	dist
 	mkdir -p $(HOME)/rpmbuild/SOURCES
 	cp paravel_install3-$(VERSION).tar.gz $(HOME)/rpmbuild/SOURCES/
-	$(RPMBUILD) -ba --target $(ARCH)-$(VENDOR)-linux paravel_install3.spec
-	mv $(HOME)/rpmbuild/RPMS/$(ARCH)/paravel_install3-*.rpm $(top_srcdir)/
+	$(RPMBUILD) -ba --target noarch-$(VENDOR)-linux paravel_install3.spec
+	mv $(HOME)/rpmbuild/RPMS/noarch/paravel_install3-*.rpm $(top_srcdir)/
 	mv $(HOME)/rpmbuild/SRPMS/paravel_install3-*.src.rpm $(top_srcdir)/
 	rm $(HOME)/rpmbuild/SOURCES/paravel_install3-$(VERSION).tar.gz
 

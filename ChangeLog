@@ -32,3 +32,6 @@
 	in 'paravelvnc'.
 2014-08-16 Fred Gleason <fredg@paravelsystems.com>
 	* Incremented the package version 3.0.0.
+2014-08-16 Fred Gleason <fredg@paravelsystems.com>
+	* Fixed a bug in 'Makefile.am' that caused RPMs to be generated
+	with incorrect archetecture.
