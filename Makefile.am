@@ -10,7 +10,8 @@
 
 ACLOCAL_AMFLAGS = -I m4
 
-SUBDIRS = db_images
+SUBDIRS = db_images\
+          wavs
 
 rpm:	dist
 	mkdir -p $(HOME)/rpmbuild/SOURCES

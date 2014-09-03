@@ -48,6 +48,7 @@ AC_SUBST(RPM_DATESTAMP,`date +%a\ %b\ %d\ %Y`)
 
 AC_CONFIG_FILES([ \
     db_images/Makefile \
+    wavs/Makefile \
     paravel_install3.spec \
     Makefile ])
 AC_OUTPUT()
