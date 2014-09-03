@@ -10,6 +10,8 @@
 
 ACLOCAL_AMFLAGS = -I m4
 
+SUBDIRS = db_images
+
 rpm:	dist
 	mkdir -p $(HOME)/rpmbuild/SOURCES
 	cp paravel_install3-$(VERSION).tar.gz $(HOME)/rpmbuild/SOURCES/

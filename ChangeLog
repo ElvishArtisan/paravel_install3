@@ -37,3 +37,5 @@
 	with incorrect archetecture.
 2014-08-16 Fred Gleason <fredg@paravelsystems.com>
 	* Incremented the package version 3.0.1.
+2014-09-02 Fred Gleason <fredg@paravelsystems.com>
+	* Added DB image for rdhost.

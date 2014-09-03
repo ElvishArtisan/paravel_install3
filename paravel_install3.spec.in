@@ -46,6 +46,7 @@ cp Paravel-Broadcast.repo $RPM_BUILD_ROOT/usr/share/paravel_install/
 cp Reyware.repo $RPM_BUILD_ROOT/usr/share/paravel_install/
 cp RPM-GPG-KEY-Paravel-Broadcast $RPM_BUILD_ROOT/usr/share/paravel_install/
 cp RPM-GPG-KEY-Reyware $RPM_BUILD_ROOT/usr/share/paravel_install/
+cp db_images/rivendell-db-rdhost.tar.gz $RPM_BUILD_ROOT/usr/share/paravel_install/
 
 
 %clean
@@ -63,6 +64,7 @@ rm -rf $RPM_BUILD_ROOT
 /usr/share/paravel_install/RPM-GPG-KEY-Paravel-Broadcast
 /usr/share/paravel_install/Reyware.repo
 /usr/share/paravel_install/RPM-GPG-KEY-Reyware
+/usr/share/paravel_install/rivendell-db-rdhost.tar.gz
 
 
 %changelog

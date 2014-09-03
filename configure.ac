@@ -46,7 +46,9 @@ fi
 AC_SUBST(VENDOR,redhat)
 AC_SUBST(RPM_DATESTAMP,`date +%a\ %b\ %d\ %Y`)
 
-AC_CONFIG_FILES([paravel_install3.spec \
+AC_CONFIG_FILES([ \
+    db_images/Makefile \
+    paravel_install3.spec \
     Makefile ])
 AC_OUTPUT()
 
