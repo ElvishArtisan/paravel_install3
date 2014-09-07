@@ -28,6 +28,7 @@ EXTRA_DIST = asound.conf\
              paravelvnc\
              Paravel-Broadcast.repo\
              paravel_install3.spec.in\
+             passdb.tdb\
              Reyware.repo\
              RPM-GPG-KEY-Paravel-Broadcast\
              RPM-GPG-KEY-Reyware\

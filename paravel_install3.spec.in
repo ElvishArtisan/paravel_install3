@@ -40,6 +40,7 @@ mkdir -p $RPM_BUILD_ROOT/usr/share/paravel_install
 cp asound.conf $RPM_BUILD_ROOT/usr/share/paravel_install/
 cp gpg_keys $RPM_BUILD_ROOT/usr/share/paravel_install/
 cp smb.conf $RPM_BUILD_ROOT/usr/share/paravel_install/
+cp passdb.tdb $RPM_BUILD_ROOT/usr/share/paravel_install/
 cp paravelvnc $RPM_BUILD_ROOT/usr/share/paravel_install/
 cp rivendell.sh $RPM_BUILD_ROOT/usr/share/paravel_install/
 cp Paravel-Broadcast.repo $RPM_BUILD_ROOT/usr/share/paravel_install/
@@ -59,6 +60,7 @@ rm -rf $RPM_BUILD_ROOT
 /usr/share/paravel_install/asound.conf
 /usr/share/paravel_install/gpg_keys
 /usr/share/paravel_install/smb.conf
+/usr/share/paravel_install/passdb.tdb
 /usr/share/paravel_install/paravelvnc
 /usr/share/paravel_install/rivendell.sh
 /usr/share/paravel_install/Paravel-Broadcast.repo
