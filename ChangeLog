@@ -50,3 +50,5 @@
 2014-09-07 Fred Gleason <fredg@paravelsystems.com>
 	* Added 'passdb/tdb'.
 	* Modified 'smb.conf' to remove guest account access.
+2014-09-07 Fred Gleason <fredg@paravelsystems.com>
+	* Incremented the package version to 3.1.2.
