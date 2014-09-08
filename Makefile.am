@@ -21,7 +21,8 @@ rpm:	dist
 	mv $(HOME)/rpmbuild/SRPMS/paravel_install3-*.src.rpm $(top_srcdir)/
 	rm $(HOME)/rpmbuild/SOURCES/paravel_install3-$(VERSION).tar.gz
 
-EXTRA_DIST = asound.conf\
+EXTRA_DIST = adobe-linux-x86_64.repo\
+             asound.conf\
              autogen.sh\
              gpg_keys\
              PACKAGE_VERSION rivendell.sh\
@@ -30,6 +31,7 @@ EXTRA_DIST = asound.conf\
              paravel_install3.spec.in\
              passdb.tdb\
              Reyware.repo\
+             RPM-GPG-KEY-adobe-linux\
              RPM-GPG-KEY-Paravel-Broadcast\
              RPM-GPG-KEY-Reyware\
              smb.conf

@@ -45,8 +45,10 @@ cp paravelvnc $RPM_BUILD_ROOT/usr/share/paravel_install/
 cp rivendell.sh $RPM_BUILD_ROOT/usr/share/paravel_install/
 cp Paravel-Broadcast.repo $RPM_BUILD_ROOT/usr/share/paravel_install/
 cp Reyware.repo $RPM_BUILD_ROOT/usr/share/paravel_install/
+cp adobe-linux-x86_64.repo $RPM_BUILD_ROOT/usr/share/paravel_install/
 cp RPM-GPG-KEY-Paravel-Broadcast $RPM_BUILD_ROOT/usr/share/paravel_install/
 cp RPM-GPG-KEY-Reyware $RPM_BUILD_ROOT/usr/share/paravel_install/
+cp RPM-GPG-KEY-adobe-linux $RPM_BUILD_ROOT/usr/share/paravel_install/
 cp db_images/rivendell-db-rdhost.tar.gz $RPM_BUILD_ROOT/usr/share/paravel_install/
 cp wavs/999999_001.wav.gz  $RPM_BUILD_ROOT/usr/share/paravel_install/
 
@@ -57,18 +59,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(-,root,root)
-/usr/share/paravel_install/asound.conf
-/usr/share/paravel_install/gpg_keys
-/usr/share/paravel_install/smb.conf
-/usr/share/paravel_install/passdb.tdb
-/usr/share/paravel_install/paravelvnc
-/usr/share/paravel_install/rivendell.sh
-/usr/share/paravel_install/Paravel-Broadcast.repo
-/usr/share/paravel_install/RPM-GPG-KEY-Paravel-Broadcast
-/usr/share/paravel_install/Reyware.repo
-/usr/share/paravel_install/RPM-GPG-KEY-Reyware
-/usr/share/paravel_install/rivendell-db-rdhost.tar.gz
-/usr/share/paravel_install/999999_001.wav.gz
+/usr/share/paravel_install/*
 
 
 %changelog
