@@ -55,3 +55,5 @@
 2014-09-08 Fred Gleason <fredg@paravelsystems.com>
 	* Added 'adobe-linux-x86_64.repo'.
 	* Added 'RPM-GPG-KEY-adobe-linux'.
+2014-09-08 Fred Gleason <fredg@paravelsystems.com>
+	* Incremented the package version to 3.1.3.
