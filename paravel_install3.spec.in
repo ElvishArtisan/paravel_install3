@@ -43,6 +43,7 @@ cp smb.conf $RPM_BUILD_ROOT/usr/share/paravel_install/
 cp passdb.tdb $RPM_BUILD_ROOT/usr/share/paravel_install/
 cp paravelvnc $RPM_BUILD_ROOT/usr/share/paravel_install/
 cp rivendell.sh $RPM_BUILD_ROOT/usr/share/paravel_install/
+cp adobe-linux-x86_64.repo $RPM_BUILD_ROOT/usr/share/paravel_install/
 cp Paravel-Broadcast.repo $RPM_BUILD_ROOT/usr/share/paravel_install/
 cp Reyware.repo $RPM_BUILD_ROOT/usr/share/paravel_install/
 cp adobe-linux-x86_64.repo $RPM_BUILD_ROOT/usr/share/paravel_install/
