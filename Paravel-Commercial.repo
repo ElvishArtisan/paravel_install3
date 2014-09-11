@@ -1,0 +1,6 @@
+[Paravel-Commercial]
+enabled = 1
+name = Commercial Applications from Paravel Systems.
+baseurl = http://download.paravelsystems.com/CentOS/7com/
+gpgcheck = 1
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-Paravel-Broadcast

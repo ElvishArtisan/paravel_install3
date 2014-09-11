@@ -45,6 +45,7 @@ cp paravelvnc $RPM_BUILD_ROOT/usr/share/paravel_install/
 cp rivendell.sh $RPM_BUILD_ROOT/usr/share/paravel_install/
 cp adobe-linux-x86_64.repo $RPM_BUILD_ROOT/usr/share/paravel_install/
 cp Paravel-Broadcast.repo $RPM_BUILD_ROOT/usr/share/paravel_install/
+cp Paravel-Commercial.repo $RPM_BUILD_ROOT/usr/share/paravel_install/
 cp Reyware.repo $RPM_BUILD_ROOT/usr/share/paravel_install/
 cp adobe-linux-x86_64.repo $RPM_BUILD_ROOT/usr/share/paravel_install/
 cp RPM-GPG-KEY-Paravel-Broadcast $RPM_BUILD_ROOT/usr/share/paravel_install/

@@ -28,6 +28,7 @@ EXTRA_DIST = adobe-linux-x86_64.repo\
              PACKAGE_VERSION rivendell.sh\
              paravelvnc\
              Paravel-Broadcast.repo\
+             Paravel-Commercial.repo\
              paravel_install3.spec.in\
              passdb.tdb\
              Reyware.repo\
